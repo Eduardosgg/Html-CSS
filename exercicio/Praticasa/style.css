@@ -1,0 +1,196 @@
+@charset "UTF-8";
+
+*{
+    --cor1:#B4FF99;
+    --cor2:#7CFF4D;
+    --cor3:#63CC3D;
+    --cor7:#2c850b;
+    --cor4:#588547;
+    --cor5:#144402;
+    --cor6:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0%;
+}
+
+
+
+body{
+   
+    background-color: var(--cor1);
+}
+
+header {
+    background-image: linear-gradient(to bottom,var(--cor3),var(--cor5));
+    min-height: 150px;
+    padding: 10px;
+    text-align: center;
+
+}
+header > h1{ 
+
+    color: rgba(255, 255, 255, 0.664);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 3em;
+    text-shadow: 2px 3px 3px black;
+    
+}
+
+header > p {
+
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+strong{
+    color: #3E8026;
+    font-weight: bold;
+    padding: 2px;
+}
+
+nav a{
+
+    color: #fff;
+    text-decoration: none;
+    padding: 7px;
+    font-weight: bold; /* colocar em negrito */
+    transition-duration: 0.3s; /* mini animacao */
+    border-radius: 7px; 
+}
+nav a:hover{
+
+    background-color: var(--cor4);
+    color: var(--cor2);
+    padding: 7px;
+
+} 
+nav{
+    /* colocar nav para titulos,shift + Alt + A,atalho para comentario */
+    background-color: var(--cor5);
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+
+    
+}
+
+main {
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    box-shadow: 1px 1px 10px black;
+    
+}
+main img{
+    
+    text-align: center;
+    width: 90%;
+}
+main h1 {
+
+    color: var(--cor4);
+    margin: 15px 0px;
+    text-align: center;
+    background-image: linear-gradient(to right, var(--cor3),transparent);
+}
+
+main h2{
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: var(--cor4);
+    background-image: linear-gradient(to right, var(--cor3),
+    transparent);
+    text-indent: 10px;
+}
+
+main a{
+
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--cor5);
+    background-color: var(--cor1);
+    padding: 2px 6px ;
+
+
+}
+main a:hover{
+
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    transition-duration: 2s;
+
+
+}
+
+
+
+main p{
+
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px; /* paragrafo */
+    line-height: 1.5em; /* espaco entre as linhas */
+
+}
+main img.pequena{
+
+    max-width: 300px;
+    
+    
+}
+.video{
+    width: 100%;
+    background-color: var(--cor4);
+    border-radius: 10px;
+    text-align: center
+    
+}
+div.video > iframe {
+    top: 5%;
+    left: 5%;
+    width: 90%;
+
+}
+aside{
+
+    background-color: var(--cor2);
+    padding: 10px;
+    border-radius: 15px;
+
+}
+
+aside ul{
+
+    list-style-position: inside;
+    columns: 2; /* Dividir em duas colunas,dividir uma lista*/
+
+}
+aside h4{
+
+    background-color: var(--cor7);
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    box-shadow: 1px 1px 2px black;
+}
+footer{
+
+    text-align: center;
+}
+
+a.externo::after{
+
+
+}
+/* ::affter colocar depois da ultima palavra */
+
