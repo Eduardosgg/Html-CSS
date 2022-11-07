@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+*{
+   margin: 0%;
+   padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+html,body{
+
+    background-color: beige;
+    min-height: 100%;
+
+}
+
+header{
+
+    background-color: black;
+    margin-top: 0%;
+}
+
+header > h1 {
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    text-align: center;
+    font-size: 10vw;
+    font-variant: small-caps;
+
+}
+
+header > p{
+    padding-bottom: 50px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+header a{
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+nav{ 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    
+}
+
+nav a{
+
+    padding: 10px;
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    
+    
+}
+nav a:hover{
+
+    margin-top: 10px;
+    background-color: rgba(105, 97, 92, 0.527);
+    transition: 0.4s;
+    border-radius: 10px;
+
+
+}
+section{
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding: 30px;
+    font-size: 3.5vw;
+}
+
+section > p{
+    
+    padding-bottom: 2em;
+}
+section.normal{
+
+    background-color: white;
+    color: black;
+
+}
+section.imagem{
+
+    background-color: rgba(10, 94, 94, 0.568);
+    
+    color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+section#img01{
+
+    background-image: url('../desafio12/imagens/background001.jpg');
+    background-position: right center;
+    
+
+}
+
+section#img02{
+
+background-image: url('../desafio12/imagens/background002.jpg');
+background-position: right center;
+
+
+
+}
+
+
+
+section.imagem > p{
+
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(109, 106, 106, 0.623);
+    box-shadow: 1px 2px 4px black;
+
+
+    
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+
+    background-color: black;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+
+}
+
+footer a{
+
+    text-decoration: none;
+    color: white;
+
+
+}
+
+abbr{
+
+    text-decoration: none;
+
+}
