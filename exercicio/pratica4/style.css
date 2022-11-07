@@ -2,8 +2,7 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0%;
-    margin: 0%;
+    
     --cor1:#7B87E0;
     --cor2:#393C4D;
     --cor3:#1E32C7;
@@ -11,15 +10,24 @@
     --cor5:#0B1247;
     --cor6:#ffff;
     --cor7:#000;
-    
+    margin: 0%;
+    padding: 0%;
+}
+body{
+
+    background-color: #7B87E0;
 }
 
-header>h1{
+header{
 
-    color: #162594;
+    text-align: center;
+    background-image: linear-gradient(to bottom,var(--cor3),var(--cor1));
+}
+header > h1{
     border-radius: 0px 0px 10px 10px;
     font-size: 2em;
-    background-image: linear-gradient(to bottom,var(--cor7));
+    color: #ffff;
+
 
 }
 header>p{
@@ -28,20 +36,57 @@ header>p{
     padding: 10px;
     
 }
-header{
-
-    text-align: center;
-      
-    margin: 10px;
-
-}
 
 nav{
 
-    display: inline;
+    text-align: center;
+    background-image: linear-gradient(to bottom,var(--cor1),var(--cor3));
+    padding: 4px;
+    margin-top: 0px;
+    border: 10px;
+    min-height: 10px;
+    
+}
+nav a{
+    text-decoration: none;
+    margin: 20px;
+    padding: 9px;
+    color: rgba(255, 255, 255, 0.603);
+    margin-top: 20px;
+}
+nav a:hover{
+
+    background-color: #221f221a;
+    border-radius: 10px;
 
 
 }
-h1{
+
+main{
+    
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+main h2{
+
+    text-align: center;
+
+}
+main h1{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
 
 }        
+
+main p {
+
+    text-align: justify;
+}
+
+picture{
+
+    margin: auto;
+}
