@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    --cor1:#ACA4E3;
+    --cor2:#241E4A;
+    --cor3:#6253C9;
+    --cor4:#4A3E96;
+    
+}
+
+body{
+
+    background-image: url(Imagens/halloween-g4929c60f3_1920.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+header{
+
+    background-image: linear-gradient(to bottom,var(--cor2),var(--cor1));
+    color: white;
+
+}
+
+header h1{
+
+    text-align: center;
+
+}
+
+header h2 {
+
+    text-align: center;
+
+}
+
+
+nav{
+    text-align: center;
+    background-image: linear-gradient(to bottom,var(--cor1),var(--cor2));
+}
+
+nav a{
+
+    color: white;
+    text-decoration: none;
+
+}
+
+section{
+
+    padding: 10px;
+    
+
+}
+
+section p{ 
+    text-align: justify;
+    padding: 20px;
+    background-color: rgba(7, 0, 0, 0.486);
+    color: white;
+
+
+}
+
+
+section.imagem{
+    padding-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.205);
+    padding-top: 30px;
+    line-height: 2em;
+    
+}
+
+section.imagem p{
+    display: inline-block;
+    margin: 10px;
+    text-align: justify;
+    padding: 10px;
+    box-shadow: 1px 1px 1px black;
+    border: 10px;
+
+}
+
+section
