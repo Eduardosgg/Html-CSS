@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        td , th{
+
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead,tfoot{
+
+            background-color: gray;
+            color: white;
+        }
+        td.num{
+            text-align: right;
+        }
+        caption{
+
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(61, 57, 56, 0.466);
+        }
+
+        tbody > tr:nth-child(odd){ /* ou 2n-1 */
+            background-color: rgba(105, 105, 105, 0.397);
+
+        }
+        tbody > tr:nth-child(even){ /* ou 2n */
+            background-color: rgba(0, 255, 255, 0.267);
+        }
+    </style>
+</head>
+<body>
+    <h1>uso de tabelas grandes </h1>
+    <!-- anatomia de tabelas grandes 
+    tabla
+        caption
+        thead
+            TR,TD,TH
+        TBODY
+            TR,TD,TH
+        TFOOT
+            TR,TD,TH    
+    -->
+    <table>
+        <caption>populacao das unidades federativas</caption><!-- tilulo em cima da tabela -->
+        <thead>
+            <tr>
+                <th>estado</th> <!--TH: Titulo -->
+                <th scope="col" style="width: 10px;">populacao</th><!-- scop -ajudat a linha central -->
+            </tr>
+        </thead>
+        <tbody>
+            <td>Sao paulo</td>
+            <td class="num">45 919 049</td> <!-- TD:Dados -->
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Total de habitantes</th>
+            <td class="num">37002515051</td>
+        </tfoot>
+    </table>
+</body>
+</html>
