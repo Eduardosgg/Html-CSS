@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    --cor1:#FFFFFF;
+    --cor2: #808080ad;
+    --cor3:#ff0000bb;
+    --cor4:#0000FF;
+
+
+}
+body{
+
+    background-color: rgba(0, 0, 255, 0.514);
+    background-image: url(imagen/moon-g792978f98_1280.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+
+    padding: 0px 30px 0px;
+    align-items: center;
+    display: flex;
+    background-color: var(--cor3);
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+
+
+nav a {
+
+    align-items: center;
+    float: left;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    margin: 5px 5px 0px;
+    
+}
+
+
+nav a:hover{
+
+    transform: scale(1.1);
+    transition: 1s;
+    color: var(--cor4);
+
+
+}
+
+header{
+
+    padding: 30px 30px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+
+span{
+
+    color: rgb(0, 119, 255);
+
+    
+}
+
+
+img{
+
+    height: 50vh;
+    width: 70vh;
+    margin: 20px 20px 20px;
+    
+    
+
+}
+
+.img01{
+    
+    display: flex;
+    align-items: center;
+}
+
+.img02{
+
+    background-image: url(imagen/moon-g792978f98_1280.png);
+    height: 150px;
+    width: 150px;
+    background-attachment: fixed;
+    
+    background-size: cover;
+    border: 6px solid green;
+    border-radius: 50%;
+    margin: 0px 20px 0px;
+    
+}
+.img03{
+
+    background-image: url(imagen/red-g300144177_1920.png);
+    height: 150px;
+    width: 150px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    border: 6px solid green;
+    border-radius: 50%;
+    margin: 0px 20px 0px;
+    
+}
+
+.img04{
+
+    background-image: url(imagen/wreath-ga3f171e6b_1920.jpg);
+    height: 150px;
+    width: 150px;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 6px solid green;
+    border-radius: 50%;
+    margin: 0px 20px 0px;
+    
+}
+
+.imagens{
+    display: flex;
+    margin: 10px;
+    margin: auto;
+    align-self: center;
+    
+    
+}
+.imagens p{
+    
+    text-align: center;
+    padding: 50px;
+
+}
+.sobre{
+    
+    text-align: center;
+    
+}
+.sobre-mim{
+    text-align: justify;
+    background-color: var(--cor2);
+    margin: 30px 10px 10px;
+    
+}
+
+
+
+.imagens{
+    display: flex;
+    max-width: 600px;
+    justify-content: center;
+}
+
+.conteiner{
+    background-color: var(--cor2);
+    text-align: center;
+    margin: 10px;
+}
